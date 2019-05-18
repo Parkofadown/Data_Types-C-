@@ -10,12 +10,24 @@ namespace Data_Types
     {
         static void Main(string[] args)
         {
-            // The code provided will print ‘Hello World’ to the console.
-            // Press Ctrl+F5 (or go to Debug > Start Without Debugging) to run your app.
-            Console.WriteLine("Hello World!");
+            int num1 = 13;
+            int num2 = 5;
+            int sum = num1 + num2;
+
+            double d1 = 3.5;
+            double d2 = 1.337;
+            double sumD = d1 + d2;
+
+            float f1 = 3.5f;
+            float f2 = 1.223f;
+            float sumF = f1 + f2;
+
+            Console.WriteLine("The sum of {0} and {1} is " + sum, num1,num2);
+            Console.WriteLine("The sum of {0} and {1} is " + sumD, d1,d2);
+            Console.WriteLine("The sum of {0} and {1} is " + sumF, f1, f2);
             Console.ReadKey();
 
-            // Go to http://aka.ms/dotnet-get-started-console to continue learning how to build a console app! 
+        
         }
     }
 }
